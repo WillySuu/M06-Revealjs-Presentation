@@ -1,0 +1,248 @@
+---
+title: "PhD Orthodontics"
+subtitle: "Proposal Presentation"
+author: "Willy Su"
+institute: "IBM 6500, Cal Poly Pomona"
+date: "today"
+format: 
+  revealjs:
+    theme: serif
+    width: 1600
+    height: 900
+    footer: PhD Orthodontics
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# Table of Contents
+
+1.  Introduction
+2.  Analytics Objective
+3.  Literature Review
+4.  Methods
+5.  References
+
+# Introduction
+
+## Business Problem
+
+PhD Orthodontics wants to increase consultation inquiries and ultimately convert more prospective patients into patients.
+
+However, the practice currently has limited information about how its digital marketing activities contribute to the patient journey.
+
+Key areas of the project include:
+
+- Website usability and consultation-request barriers
+- SEO and Google Ads performance
+- Website content and patient information
+- Consumer trust and consultation intention
+
+# AO5: Consumer Insights and Customer Behavior
+
+## Analytics Objective
+
+Analyze prospective patients’:
+
+- Trust
+- Credibility perceptions
+- Consultation intent
+
+in response to the practice’s **marketing content and website experience**.
+
+## Goal
+
+Use consumer research to understand how digital communication influences prospective patients’ perceptions and willingness to request a consultation.
+
+# Why AO5 Matters
+
+Website analytics can show **what users do**, but they cannot fully explain **how users feel or why they may take action**.
+
+AO5 helps examine:
+
+- How credible the practice appears
+- Whether prospective patients trust the information
+- How patients evaluate the quality of website content
+- Whether they are willing to request a consultation
+
+These insights can support improvements to the website and digital marketing communications.
+
+# Literature Review
+
+## Elaboration Likelihood Model (ELM)
+
+The **Elaboration Likelihood Model (ELM)** explains that people may process persuasive information through two routes:
+
+- **Central Route:** Careful evaluation of the quality and substance of information
+- **Peripheral Route:** Evaluation based on surrounding cues and signals
+
+### Application to PhD Orthodontics
+
+**Central cues** may include:
+
+::: {.incremental}
+- Clear treatment information
+- Completeness and usefulness of content
+:::
+
+**Peripheral cues** may include:
+
+::: {.incremental}
+- Professional website presentation
+- Provider expertise
+- Ratings and reviews
+:::
+
+# Source Credibility & Trust
+
+## Source Credibility
+
+Prospective patients need to decide whether the information comes from a knowledgeable and trustworthy source.
+
+Credibility may be influenced by:
+
+- Professional expertise
+- Clear identification of the provider
+- Quality of treatment information
+- Consistency of the message
+
+## Trust
+
+Greater credibility and trust may make prospective patients more comfortable taking the next step toward requesting a consultation.
+
+# Adequateness of Current Information
+
+The information gathered so far provides a useful foundation for AO5, but it is **not yet sufficient** to fully accomplish the objective.
+
+**What We Have**
+
+- Consumer behavior frameworks
+- GA4 behavioral indicators
+- Website activity such as page views and form activity
+
+**What Is Still Missing**
+
+- Direct measures of trust and credibility
+- Final target population
+- Validated measurement scales
+- Sample size and recruitment method
+- Specific website content to evaluate
+
+# Need for Additional Analysis
+
+Additional consumer research is needed because current website analytics cannot directly measure prospective patients’ perceptions.
+
+## Proposed Next Step
+
+Conduct an **online survey or experiment** where participants evaluate selected website content or digital marketing materials.
+
+The research can measure:
+
+- Information quality
+- Credibility
+- Trust
+- Consultation intention
+
+Possible analyses include **descriptive statistics, t-tests, ANOVA, and regression analysis**, depending on the final research design and sample.
+
+# Methods
+
+## Proposed Research Design
+
+AO5 will use primary consumer research to understand how prospective patients respond to PhD Orthodontics' digital content.
+
+### Data Collection
+
+- Online survey or experiment
+- Prospective orthodontic patients
+- Selected website content or marketing materials
+
+### Key Measures
+
+- Information quality
+- Credibility
+- Trust
+- Professionalism
+- Consultation intention
+
+### Analysis
+
+Descriptive statistics, group comparisons, and regression analysis may be used depending on the final research design and available sample.
+
+# Proposed AO5 Measures
+
+The following table summarizes the main consumer measures proposed for AO5.
+
+```{r}
+#| label: tbl-ao5-measures
+#| tbl-cap: "Proposed Consumer Measures for AO5"
+
+ao5_measures <- data.frame(
+  Measure = c(
+    "Information Quality",
+    "Credibility",
+    "Trust",
+    "Professionalism",
+    "Consultation Intention"
+  ),
+  Purpose = c(
+    "Evaluate the quality and usefulness of website information",
+    "Measure how credible the practice and its information appear",
+    "Measure prospective patients' trust in the practice",
+    "Evaluate perceptions of professional presentation",
+    "Measure willingness to request a consultation"
+  )
+)
+
+knitr::kable(ao5_measures)
+```
+
+# Analytics Methods
+
+After collecting consumer responses, several statistical methods can be used to analyze the data.
+
+- **Descriptive Statistics:** Summarize participants' responses and overall patterns
+- **Group Comparisons:** Compare responses across different groups or content conditions
+- **Regression Analysis:** Examine whether credibility and trust are associated with consultation intention
+
+The final analysis method will depend on the research design, sample size, and available data.
+
+# References
+
+The literature and theoretical framework used in this presentation are based on the sources reviewed for the Group 6 Culminating Experience Project.
+
+Key topics include:
+
+- Elaboration Likelihood Model (ELM)
+- Source credibility
+- Trust in online health information
+- Consumer decision-making and consultation intention
+
+For the complete reference list, see the Group 6 CEP report.
+
+[View Appendix](#appendix)
+
+# Appendix {#appendix}
+
+## AO5 Supporting Information
+
+This appendix provides additional information related to the proposed consumer research for AO5.
+
+- Proposed research method: Online survey or experiment
+- Target group: Prospective orthodontic patients
+- Key constructs: Information quality, credibility, trust, professionalism, and consultation intention
+- Possible analyses: Descriptive statistics, group comparisons, and regression analysis
